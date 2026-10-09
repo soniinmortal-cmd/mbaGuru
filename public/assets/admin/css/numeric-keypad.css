@@ -1,0 +1,77 @@
+html {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.input-numeric-container {
+    background: #fff;
+    margin: 1em auto;
+    width: 200px;
+    height:250px;
+    float:left;
+}
+
+.input-numeric {
+    width: 100%;
+    HEIGHT:20PX;
+    padding: 0.8em 0.4em;
+    margin-bottom: 0.8em;
+    box-sizing: border-box;
+    border: 1px solid silver;
+    outline-color: black;
+}
+
+.table-numeric {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-numeric td {
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    border: 0;
+}
+
+.table-numeric button {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.7em 0.1em;
+    font-size: 1em;
+    border-radius: 0.1em;
+    outline: none;
+    user-select: none;
+}
+
+.table-numeric button:active {
+    top: 2px;
+}
+
+.key {
+    background: #fff;
+    border: 1px solid #d8d6d6;
+}
+
+.key-del {
+    background: #fff;
+    border: 1px solid #fff;
+    color: black;
+}
+
+.key-clear {
+    background: #fff;
+    border: 1px solid #fff;
+    color: black    ;
+}
+
+button[disabled] {
+    opacity: 0.5;
+    cursor: no-drop;
+}
+
+[data-numeric="hidden"] .table-numeric {
+    display: none;
+}
